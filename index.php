@@ -11,6 +11,8 @@
 		<!-- bootstrap - link cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./style/style-index.css">
+
+		<!-- fontes -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 	
@@ -37,7 +39,7 @@
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
 	            <li><a href="inscreva.php" class="menu">Inscrever-se</a></li>
-	            <li class=""><a id="entrar" class="menu">Entrar</a></li>
+	            <li class=""><a href="logar.php" id="entrar" class="menu">Entrar</a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>

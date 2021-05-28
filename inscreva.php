@@ -57,7 +57,7 @@
 
 		
 				<div class="outros">
-					<a href="inscrevase.php">Já possui conta?</a>
+					<a href="logar.php">Já possui conta?</a>
 				</div>
 			</form>
 	      <!-- Main component for a primary marketing message or call to action -->

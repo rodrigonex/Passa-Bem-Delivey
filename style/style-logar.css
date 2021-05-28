@@ -1,0 +1,76 @@
+
+body{
+    background-image: url(../imagens/hamburger-with-beef-meat-burger-and-fresh-vegetables-on-dark-surface.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centraliz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+
+.centraliz span{
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+.containerflex{
+    display: flex;
+    justify-content: center;
+}
+
+.containerflex h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+.containerflex .form-group{
+    width: 30rem; 
+    margin-bottom: 2.5rem; 
+}
+
+.form-group input{
+    height: 4rem;
+}
+
+.containerflex button{
+    height: 4rem; 
+    border-radius: 1rem;   
+}
+
+.outros{
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.outros a{
+    color: black;
+}
+
+#formLogin{
+    background-color: rgba(255, 228, 201, 0.6);
+    padding: 2rem;
+    margin-top: 14rem;
+    border-radius: 3rem;
+    border: 1px solid #8c8c8c; 
+}
+
+.alerta-login{
+    background-color: #ff0000;
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
