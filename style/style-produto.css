@@ -1,0 +1,30 @@
+
+#form_cadastro_produto{
+    width: 60rem;   
+}
+
+.form-check-inline{
+    display: inline;
+    padding-left: 7px;
+}
+
+
+.texto-produto{
+    padding-top: 4rem;
+}
+
+.texto-produto h5{
+    font-weight: bold;
+}
+
+#btn_login{
+    margin: 2rem 0 3rem 0;
+}
+
+#text-descrip{
+    min-width: 60rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    max-width: 60rem;
+}
+

@@ -1,6 +1,7 @@
 <?php
 
 	$erro = isset($_GET['erro']) ? $_GET['erro'] : 0; 
+	echo $erro;
 ?>
 
 <!DOCTYPE HTML>
@@ -35,11 +36,11 @@
 				<div class="form-group">
 					<input type="password" class="form-control red" id="campo_senha" name="senha" placeholder="Senha" required="requiored"/>
 				</div>
-		
-				<button type="buttom" class="btn btn-danger" id="btn_login" style="width: 100%;">Cadastrar</button>
 				<?php
-					if($erro) echo '<p class="alerta-login">Usuário e ou senha inválido(s).</p>';
+						if($erro) echo '<p class="alerta-login">Usuário e ou senha inválido(s).</p>';
 				?>
+				<button type="buttom" class="btn btn-danger" id="btn_login" style="width: 100%;">Cadastrar</button>
+
 				<div class="outros">
 					<a href="inscrevase.php">Ainda não possui conta?</a>
 				</div>

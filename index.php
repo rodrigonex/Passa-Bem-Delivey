@@ -50,7 +50,7 @@
 				</div>
 			</section>
 		<footer class="rodape">
-			<h5>Desenvolvimento por Rodrigo Mota</h5>
+			<h5> Rua Santa luzia XXX - Santa Efigênia - Belo Horizonte</h5>
 		</footer>
 
 	
