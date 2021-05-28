@@ -1,0 +1,46 @@
+body{
+    background-image: url(../imagens/pizza-2068272_1920.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color-navbar{
+    background-color: rgba(255, 197, 110, 0.4);
+}
+
+.bg-color-navbar .navbar-right{
+    color: black;
+}
+
+.menu{
+    height: 50px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rodape{
+    display: flex;
+    background-color: rgba(255, 197, 110, 0.5);
+    height: 6.6rem;
+    justify-content: center;
+    padding-top: 2rem;
+    color: black;
+}
+
+.conteudo{
+    height: 52rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 18rem;
+    width: 100%;
+}
+
+.conteudo h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #333333;
+    padding: 2rem;
+    background-color:  rgba(207, 207, 207, 0.3);
+
+}

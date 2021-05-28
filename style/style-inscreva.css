@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(../imagens/egg-sandwich-2761894_1920.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    margin-top: 2rem;
+    padding-right: 25rem;
+}
+
+.centraliz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+
+.centraliz span{
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+.containerflex{
+    display: flex;
+    justify-content: center;
+}
+
+.containerflex h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+.containerflex .form-group{
+    width: 30rem; 
+    margin-bottom: 2.5rem;    
+}
+
+.form-group input{
+    height: 4rem;
+}
+
+.containerflex button{
+    height: 4rem; 
+    border-radius: 1rem;   
+}
+
+.outros{
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.outros a{
+    color: black;
+}
+
+#formLogin{
+    background-color: rgba(255, 228, 201, 0.6);
+    padding: 2rem;
+    margin-top: 8rem;
+    border-radius: 3rem;
+    border: 1px solid #8c8c8c; 
+}
